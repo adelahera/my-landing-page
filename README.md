@@ -1,1 +1,1 @@
-# front-page
+repo for the landing page project
