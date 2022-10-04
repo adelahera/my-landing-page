@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.top_page {
+    background-color: #1f2937;
+    
+}
+
+.first_div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:900;
+    color: #f9faf8;
+    margin: 0;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.second_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    
+}
+
+.div2_left, .div2_right {
+    max-width: 25%;
+}
+
+a, .d2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+button.Sign {
+    margin-top: 8px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.div2_right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#frontimage{
+
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+p.sign {
+    margin: 0;
+    color: #f9faf8;
+}
+
+button, .call {
+    background-color: #3f6199 ;
+    
+}
+
+.third_div {
+    text-align: center;
+    justify-content: space-between;
+    height: auto;
+
+}
+
+.div3_header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.d3_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagebox {
+    height: 200px;
+    width: 200;
+    border: solid #2e4770;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.fourth_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: auto;
+}
+
+p.quote {
+    max-width: 38vw;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    font-size: 36px;
+    font-weight: 350;
+    font-style: italic;
+    columns: #1f2937;
+}
+
+cite {
+    font-weight: 700;
+    text-align: right;
+    font-style:normal;
+    display: block;
+    font-size: 20px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.fifth_div {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 75px;
+    border-radius: 10px;
+}
+
+p.head {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f9faf8;
+    margin-bottom: 4px;
+    margin-top: 24px;
+
+}
+
+
+button.callbutton {
+    margin-top: 8px;
+    border-radius: 5px;
+    color: white;
+
+}
